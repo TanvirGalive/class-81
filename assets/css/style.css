@@ -1,0 +1,134 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.about-img {
+    text-align: right;
+}
+
+.about-img img {
+    height: 500px;
+    width: 60%;
+    position: relative;
+}
+
+.right-side .about-img {
+    text-align: left;
+}
+
+.about-text {
+    border: 10px solid #efefef;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-right: 20%;
+    position: relative;
+    margin-top: -100px;
+    background: #fff;
+    padding-top: 40px;
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.right-side .about-text {
+    margin-right: 0px;
+    margin-left: 20%;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.social-media {
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-media a {
+    background: #efefef;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 17px;
+    color: #1d227d;
+    border-radius: 50%;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+.social-media a:hover{
+    background: #1d227d;
+    color: #fff;
+}
+
+.social-media a i.fa.fa-twitter{
+    color: #00aced;
+}
+
+.social-media a i.fa.fa-google-plus{
+    color: #ff4d3f;
+}
+.social-media a i.fa.fa-linkedin{
+    color: #0e61c7;
+}
+
+
+.right-side .social-media {
+    left: -25px;
+    right: auto;
+}
+
+.about-text h3 {
+    text-align: center;
+    font-size: 40px;
+}
